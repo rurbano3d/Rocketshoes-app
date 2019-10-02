@@ -1,8 +1,8 @@
 import React from 'react';
-import {View} from 'react-native';
+import {Text} from 'react-native';
 
 // import { Container } from './styles';
-
+console.tron.log(this.props);
 export default function Cart() {
-  return <View />;
+return <Text>Cart</Text>;
 }
